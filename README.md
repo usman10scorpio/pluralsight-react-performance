@@ -31,3 +31,11 @@ The page will reload if you make edits.<br />
 
      * Convert them into **memoized function** by using **React.memo** ( check **AddButton.js** file of branch **m4.lesson.1.start**  ) 
 
+## Fixing Large Bundles and Expensive Operation Issues
+
+* Caching expensive operation results by using **useMemo()** hook.
+
+* Reduce bundle size by building **production** build whenever you are sending your code to **production**.
+
+* Lazy load components by using **lazy** and **suspense** hook.
+
